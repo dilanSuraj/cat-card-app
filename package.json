@@ -1,0 +1,22 @@
+{
+  "name": "cat-card-app",
+  "version": "1.0.0",
+  "description": "Cat Card Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.ts",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Dilan Amarasinghe",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "minimist": "^1.2.6",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
